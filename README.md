@@ -1,7 +1,7 @@
 # Minecraft Auto-Ban Plugin
 
 This Minecraft plugin automatically bans players for performing configurable actions. Each action can have a custom ban reason, and details of banned players are saved in a separate `banlist.yml` file.
-
+Compatible versions are 1.16.5 to 1.21.
 ## Features
 - Ban players for specific actions such as:
   - Dropping items
