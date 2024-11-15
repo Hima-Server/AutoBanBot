@@ -28,8 +28,3 @@ reason:
   tnt-place: "You have been banned for placing TNT!"
   spam-chat: "You have been banned for spamming chat!"
   command: "You have been banned for using prohibited commands!"
-
-# Reload complete messages
-reload:
-  complete: "§aConfig reloaded successfully."
-  no-permission: "§cYou do not have permission to reload the config."
