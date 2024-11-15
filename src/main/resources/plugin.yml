@@ -1,0 +1,4 @@
+name: AutoBanBot
+version: '1.0-SNAPSHOT'
+main: com.koirdsuzu.autoBanBot.AutoBanBot
+api-version: 1.13

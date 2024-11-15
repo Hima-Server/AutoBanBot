@@ -1,0 +1,7 @@
+banned-players:
+  <UUID>:
+    MCID: "<プレイヤー名>"
+    UUID: "<プレイヤーUUID>"
+    Date: "2024-11-15 13:45:22"
+    IP: "123.45.67.89"
+    Reason: "You have been banned for placing TNT!"
