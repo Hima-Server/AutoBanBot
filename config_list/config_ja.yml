@@ -1,0 +1,30 @@
+# プレイヤーを除外してBANしないリスト
+# 普通にBANコマンドを使えばBANされます
+excluded-players:
+  - koirdsuzu
+  - player1
+  - player2
+
+# 使用したらBANするコマンド
+# 例))ハック系MODをONにするコマンドを登録するなど
+ban-commands:
+  - "/example"
+  - "/test"
+
+# 行動したらBANする設定
+ban-on:
+  item-drop: false  # アイテムを落としたらBANしない
+  nether-entry: false  # ネザーに入ったらBANしない
+  end-entry: false  # エンドに入ったらBANしない
+  tnt-place: true  # TNTを設置したらBANする
+  # スパム判定は5秒以内に5チャット以上
+  spam-chat: true  # チャットがスパム判定基準を超えたらBANする
+
+# 行動のBANメッセージ
+reason:
+  item-drop: "アイテムを落としたためBANされました！"
+  nether-entry: "ネザーに入ったためBANされました！"
+  end-entry: "エンドに入ったためBANされました！"
+  tnt-place: "TNTを設置したためBANされました！"
+  spam-chat: "スパムチャットのためBANされました！"
+  command: "禁止されたコマンドを使用したためBANされました！"
