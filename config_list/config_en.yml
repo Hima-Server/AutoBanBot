@@ -1,0 +1,35 @@
+# Players to be excluded from banning
+# They can still be banned using the normal BAN command
+excluded-players:
+  - koirdsuzu
+  - player1
+  - player2
+
+# Commands that will result in a ban when used
+# Example: Register commands that enable hack mods or similar
+ban-commands:
+  - "/example"
+  - "/test"
+
+# Actions that will result in a ban
+ban-on:
+  item-drop: false
+  nether-entry: false
+  end-entry: false
+  tnt-place: true
+  # Spam chat is detected if the player sends 5 or more messages within 5 seconds
+  spam-chat: true
+
+# Ban messages for each action
+reason:
+  item-drop: "You have been banned for dropping items!"
+  nether-entry: "You have been banned for entering the Nether!"
+  end-entry: "You have been banned for entering the End!"
+  tnt-place: "You have been banned for placing TNT!"
+  spam-chat: "You have been banned for spamming chat!"
+  command: "You have been banned for using prohibited commands!"
+
+# Reload complete messages
+reload:
+  complete: "§aConfig reloaded successfully."
+  no-permission: "§cYou do not have permission to reload the config."
